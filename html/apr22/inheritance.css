@@ -1,0 +1,13 @@
+body{
+    color: purple;
+}
+section{
+    color: aqua;
+}
+form{
+    color: brown;
+}
+button,input{
+    color: inherit;
+
+}
