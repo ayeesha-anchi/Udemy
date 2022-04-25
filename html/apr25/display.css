@@ -1,0 +1,23 @@
+h1{
+    background-color: aquamarine;
+    display: inline;
+}
+span{
+    background-color: blueviolet;
+    /* display: block; */
+    width: 100px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+p{
+    background-color: aqua;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    border: 2px groove black;
+    display: inline-block;
+}

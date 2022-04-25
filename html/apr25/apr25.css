@@ -1,0 +1,37 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+h1{
+    width: 200px;
+    background-color: rgb(233, 223, 83);
+}
+#one{
+    background-color: #52b69a;
+    border-width: 3px;
+    border-style: groove;
+    border-color: blueviolet;
+    padding: 10px;
+    margin-top: 5px;
+}
+#two{
+    width: 200px;
+    background-color: #76c893;
+    border-width: 5px;
+    border-color: aqua;
+    border-style: solid;
+    border-left: dashed;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+#three{
+    width: 200px;
+    background-color: #b5e48c;
+    border: 2px inset olivedrab;
+    border-radius: 20%;
+    margin-bottom: 0px;
+    margin: 30px;
+}
+button{
+    padding: 10px 20px;
+}
