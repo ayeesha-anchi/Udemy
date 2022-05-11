@@ -25,26 +25,54 @@
 // }, 1000);
 
 
-//Using Callback
+//USING CALLBACKS
 
-const delayColor = (newColor, delay, doNext) => {
-    setTimeout(() => {
-        document.body.style.backgroundColor = newColor;
-        doNext();
-    },delay)
-}
+// const delayColor = (newColor, delay, doNext) => {
+//     setTimeout(() => {
+//         document.body.style.backgroundColor = newColor;
+//         doNext();
+//     },delay)
+// }
 
-delayColor('red', 1000, () => {
-    delayColor('yellow', 1000, () => {
-        delayColor('orange', 1000, () => {
-            delayColor('purple', 1000, () => {
-                delayColor('pink', 1000, () => {
+// delayColor('red', 1000, () => {
+//     delayColor('yellow', 1000, () => {
+//         delayColor('orange', 1000, () => {
+//             delayColor('purple', 1000, () => {
+//                 delayColor('pink', 1000, () => {
                     
-                })
-            })
-        })
-    })
-});
+//                 })
+//             })
+//         })
+//     })
+// });
+
+
+//USING PROMISES
+
+// const delayColor = (newColor, delay)=>{
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             document.body.style.backgroundColor = newColor;
+//             resolve();
+//         }, delay)
+//     })
+// }
+
+// delayColor('red', 1000)
+//     .then(() => delayColor('yellow', 1000))
+//     .then(() => delayColor('orange', 1000))
+//     .then(() => delayColor('blue', 1000))
+//     .then(() => delayColor('purple', 1000))
+//     .then(() => delayColor('olive', 1000))
+//     .then(() => delayColor('pink', 1000))
+//     .then(() => delayColor('green', 1000))
+//     .catch(()=>delayColor('black',1000))
+
+
+
+
+
+
 
 
 // searchMoviesAPI('amadeus', () => {
