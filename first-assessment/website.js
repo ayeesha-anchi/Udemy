@@ -6,6 +6,7 @@ let formClose = document.querySelector('#form-close');
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 let videoBtn = document.querySelectorAll('.vid-btn');
+console.log(videoBtn);
 
 window.onscroll = () =>{
     searchBtn.classList.remove('bi-x');
